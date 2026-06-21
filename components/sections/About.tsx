@@ -60,7 +60,7 @@ export function About() {
             <div className="grid grid-cols-2 gap-5">
               {[
                 { value: "Meister", label: "geführter Betrieb" },
-                { value: "3", label: "Werkstoffe: Stahl, Edelstahl, Alu" },
+                { value: "3 Werkstoffe", label: "Stahl, Edelstahl, Alu" },
                 { value: "MAG · WIG", label: "moderne Schweißverfahren" },
                 { value: "Region", label: "verwurzelt & verlässlich" },
               ].map((stat) => (

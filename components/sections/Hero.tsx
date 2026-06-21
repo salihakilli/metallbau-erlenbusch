@@ -105,7 +105,7 @@ export function Hero() {
             </div>
 
             {/* schwebende Kennzahl */}
-            <div className="absolute -bottom-6 -left-6 hidden rounded-md border border-white/10 bg-steel-900/90 px-6 py-4 shadow-xl backdrop-blur sm:block">
+            <div className="absolute -top-6 -left-6 hidden rounded-md border border-white/10 bg-steel-900/90 px-6 py-4 shadow-xl backdrop-blur sm:block">
               <p className="font-display text-3xl font-semibold text-white">100%</p>
               <p className="text-xs uppercase tracking-[0.14em] text-steel-400">
                 Meisterhandwerk
