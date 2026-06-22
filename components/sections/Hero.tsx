@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { Container } from "@/components/ui/Container";
 import { ButtonLink } from "@/components/ui/Button";
-import { Icon } from "@/components/ui/Icon";
 import { site } from "@/lib/site";
 
 export function Hero() {
@@ -20,12 +19,7 @@ export function Hero() {
         <div className="grid items-center gap-16 py-32 lg:grid-cols-[1.1fr_0.9fr] lg:py-40">
           {/* Text */}
           <div>
-            <span className="inline-flex items-center gap-2.5 rounded-full border border-steel-200 bg-white px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-steel-700 shadow-sm">
-              <Icon name="spark" className="h-4 w-4 text-accent-600" />
-              Meisterbetrieb für Metallbau
-            </span>
-
-            <h1 className="mt-7 font-display text-4xl font-semibold leading-[1.08] tracking-tight text-steel-950 sm:text-5xl lg:text-6xl">
+            <h1 className="font-display text-4xl font-semibold leading-[1.08] tracking-tight text-steel-950 sm:text-5xl lg:text-6xl">
               {site.legalName}
             </h1>
 

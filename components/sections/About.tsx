@@ -9,12 +9,12 @@ const credentials: { label: string; text: string; icon: IconName }[] = [
   {
     label: "Metallbaumeister",
     text: "Geführt vom Inhaber – mit Verantwortung für jedes einzelne Projekt.",
-    icon: "spark",
+    icon: "check",
   },
   {
     label: "Geprüfter Int. Schweißfachmann",
     text: "Moderne Schweißverfahren: MAG, WIG und Elektrode auf geprüftem Niveau.",
-    icon: "weld",
+    icon: "check",
   },
   {
     label: "Persönliche Beratung",
