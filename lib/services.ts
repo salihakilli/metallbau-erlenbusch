@@ -67,23 +67,23 @@ export const services: Service[] = [
 
 export const qualityPoints = [
   {
-    title: "Meisterbetrieb",
-    text: "Geführt vom Inhaber – Metallbaumeister mit Verantwortung für jedes Projekt.",
+    title: "Qualität beginnt bei der Präzision",
+    text: "Jede Konstruktion entsteht mit höchster Sorgfalt und exakter Verarbeitung – echte Qualität zeigt sich bis ins kleinste Detail.",
   },
   {
-    title: "Präzise Verarbeitung",
-    text: "Sauber eingemessen, exakt gefertigt und millimetergenau montiert.",
+    title: "Meisterhandwerk schafft Vertrauen",
+    text: "Als Metallbaumeister und Internationaler Schweißfachmann stehe ich für fundiertes Fachwissen und Ausführung nach höchsten Standards.",
   },
   {
-    title: "Langlebige Konstruktionen",
-    text: "Materialgerechte Ausführung, die über Jahre hinweg sicher und stabil bleibt.",
+    title: "Individuelle Lösungen statt Standard",
+    text: "Jedes Projekt ist einzigartig. Ich entwickle maßgeschneiderte Konstruktionen, exakt abgestimmt auf Ihre Anforderungen und Wünsche.",
   },
   {
-    title: "Moderne Schweißtechnik",
-    text: "Geprüfter Internationaler Schweißfachmann – MAG, WIG und Elektrode.",
+    title: "Langlebigkeit ist unser Maßstab",
+    text: "Hochwertige Materialien und moderne Schweißverfahren für Konstruktionen, die über viele Jahre sicher und zuverlässig bleiben.",
   },
   {
-    title: "Persönliche Beratung",
-    text: "Direkter Kontakt zum Meister – von der Idee bis zur fertigen Lösung.",
+    title: "Verlässlichkeit in jeder Projektphase",
+    text: "Von der Beratung über die Planung bis zur Montage – alles aus einer Hand, transparent, termintreu und mit festem Ansprechpartner.",
   },
 ];

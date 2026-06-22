@@ -127,7 +127,7 @@ export function ContactForm() {
       <button
         type="submit"
         disabled={pending}
-        className="mt-1 inline-flex items-center justify-center gap-2 rounded-sm bg-steel-950 px-6 py-4 text-sm font-semibold text-accent-500 transition-colors hover:text-accent-400 disabled:cursor-not-allowed disabled:opacity-70"
+        className="mt-1 inline-flex items-center justify-center gap-2 rounded-sm bg-steel-950 px-6 py-4 text-sm font-semibold text-white transition-colors hover:bg-steel-800 disabled:cursor-not-allowed disabled:opacity-70"
       >
         {pending ? "Wird gesendet …" : "Projekt anfragen"}
         {!pending && <Icon name="arrow" className="h-4 w-4" />}

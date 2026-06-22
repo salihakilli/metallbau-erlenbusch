@@ -21,7 +21,7 @@ export function Quality() {
           <SectionHeading
             eyebrow="Qualitätsversprechen"
             title="Worauf Sie sich verlassen können"
-            intro="Fünf Grundsätze, die in jedes Projekt einfließen – vom ersten Gespräch bis zur Übergabe."
+            intro="Fünf Werte, ein Qualitätsversprechen – sie fließen in jede Konstruktion ein, von der ersten Beratung bis zur Montage."
             tone="light"
           />
         </Reveal>

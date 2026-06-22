@@ -56,7 +56,7 @@ export function Header() {
           <div className="hidden lg:block">
             <a
               href="#kontakt"
-              className="inline-flex items-center gap-2 rounded-sm bg-steel-950 px-5 py-3 text-sm font-semibold text-accent-500 transition-colors hover:text-accent-400"
+              className="inline-flex items-center gap-2 rounded-sm bg-steel-950 px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-steel-800"
             >
               Anfrage stellen
               <Icon name="arrow" className="h-4 w-4" />
@@ -94,7 +94,7 @@ export function Header() {
             <a
               href="#kontakt"
               onClick={() => setOpen(false)}
-              className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-sm bg-steel-950 px-5 py-4 text-base font-semibold text-accent-500"
+              className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-sm bg-steel-950 px-5 py-4 text-base font-semibold text-white"
             >
               Anfrage stellen
               <Icon name="arrow" className="h-4 w-4" />
