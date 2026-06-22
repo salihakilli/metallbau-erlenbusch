@@ -6,17 +6,17 @@
   warmer Stahl-/Bronze-Orange als Akzent.
 */
 @theme {
-  /* Akzent (gebranntes Industrie-Orange) */
-  --color-accent-50: #fff7ed;
-  --color-accent-100: #ffedd5;
-  --color-accent-200: #fed7aa;
-  --color-accent-300: #fdba74;
-  --color-accent-400: #fb923c;
-  --color-accent-500: #f4631e;
-  --color-accent-600: #e2530f;
-  --color-accent-700: #bc3d0e;
-  --color-accent-800: #953313;
-  --color-accent-900: #782c13;
+  /* Akzent (zurückhaltendes, professionelles Rot – sparsam eingesetzt) */
+  --color-accent-50: #fdf3f3;
+  --color-accent-100: #fbe3e4;
+  --color-accent-200: #f7caca;
+  --color-accent-300: #f0a3a4;
+  --color-accent-400: #e56b6d;
+  --color-accent-500: #d23c40;
+  --color-accent-600: #be1e29;
+  --color-accent-700: #9f1722;
+  --color-accent-800: #841621;
+  --color-accent-900: #701620;
 
   /* Stahl / Anthrazit (neutrale Basis mit leicht kühlem Ton) */
   --color-steel-50: #f6f7f8;

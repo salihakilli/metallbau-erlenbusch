@@ -50,13 +50,13 @@ export function Quality() {
 
           {/* Lückenfüller mit CTA, damit das Grid sauber abschließt */}
           <Reveal as="div" delay={180}>
-            <div className="flex h-full flex-col justify-center bg-accent-600 p-8">
-              <p className="font-display text-lg font-semibold text-white">
+            <div className="flex h-full flex-col justify-center bg-white p-8">
+              <p className="font-display text-lg font-semibold text-steel-950">
                 Überzeugen Sie sich selbst.
               </p>
               <a
                 href="#kontakt"
-                className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-white/90 transition-colors hover:text-white"
+                className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-accent-700 transition-colors hover:text-accent-600"
               >
                 Jetzt Kontakt aufnehmen
                 <Icon name="arrow" className="h-4 w-4" />

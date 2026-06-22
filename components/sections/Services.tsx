@@ -20,7 +20,7 @@ export function Services() {
           {services.map((service, i) => (
             <Reveal key={service.title} as="div" delay={(i % 3) * 90}>
               <article className="group flex h-full flex-col rounded-md border border-steel-200 bg-white p-8 transition-all duration-300 hover:-translate-y-1 hover:border-accent-300 hover:shadow-lg">
-                <span className="flex h-14 w-14 items-center justify-center rounded-sm bg-steel-950 text-accent-500 transition-colors group-hover:bg-accent-600 group-hover:text-white">
+                <span className="flex h-14 w-14 items-center justify-center rounded-sm bg-steel-950 text-white transition-colors group-hover:bg-steel-800">
                   <Icon name={service.icon} className="h-7 w-7" />
                 </span>
 
@@ -32,7 +32,7 @@ export function Services() {
                 <ul className="mt-6 space-y-2.5 border-t border-steel-100 pt-6">
                   {service.items.map((item) => (
                     <li key={item} className="flex items-start gap-2.5 text-sm text-steel-700">
-                      <Icon name="check" className="mt-0.5 h-4 w-4 shrink-0 text-accent-600" />
+                      <Icon name="check" className="mt-0.5 h-4 w-4 shrink-0 text-steel-700" />
                       {item}
                     </li>
                   ))}

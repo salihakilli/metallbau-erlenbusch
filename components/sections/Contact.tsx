@@ -32,7 +32,7 @@ export function Contact() {
             <ul className="mt-10 space-y-5">
               {details.map((d) => (
                 <li key={d.label} className="flex items-start gap-4">
-                  <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-sm bg-steel-950 text-accent-500">
+                  <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-sm bg-steel-950 text-white">
                     <Icon name={d.icon} className="h-5 w-5" />
                   </span>
                   <div>
@@ -54,7 +54,7 @@ export function Contact() {
               ))}
             </ul>
 
-            <div className="mt-10 rounded-md border border-accent-200 bg-accent-50 p-6">
+            <div className="mt-10 rounded-md border border-steel-200 bg-white p-6">
               <p className="font-display text-base font-semibold text-steel-950">
                 Schnelle Rückmeldung gewünscht?
               </p>
@@ -63,7 +63,7 @@ export function Contact() {
               </p>
               <a
                 href={site.phoneHref}
-                className="mt-4 inline-flex items-center gap-2 rounded-sm bg-accent-600 px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-accent-700"
+                className="mt-4 inline-flex items-center gap-2 rounded-sm bg-steel-950 px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-steel-800"
               >
                 <Icon name="phone" className="h-4 w-4" />
                 {site.phone}

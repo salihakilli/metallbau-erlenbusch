@@ -25,9 +25,9 @@ export function Header() {
     };
   }, [open]);
 
-  // Solider Hintergrund: beim Scrollen oder bei geöffnetem Menü.
+  // Heller Hero im Hintergrund → Header durchgehend mit dunkler Schrift.
+  // Beim Scrollen / geöffnetem Menü zusätzlich weißer Balken.
   const solid = scrolled || open;
-  const tone = solid ? "dark" : "light";
 
   return (
     <header
@@ -39,16 +39,14 @@ export function Header() {
     >
       <Container>
         <div className="flex h-20 items-center justify-between">
-          <Logo tone={tone} />
+          <Logo tone="dark" />
 
           <nav className="hidden items-center gap-8 lg:flex" aria-label="Hauptnavigation">
             {nav.map((item) => (
               <a
                 key={item.href}
                 href={item.href}
-                className={`text-sm font-medium transition-colors hover:text-accent-500 ${
-                  solid ? "text-steel-700" : "text-steel-200"
-                }`}
+                className="text-sm font-medium text-steel-700 transition-colors hover:text-accent-600"
               >
                 {item.label}
               </a>
@@ -58,11 +56,7 @@ export function Header() {
           <div className="hidden lg:block">
             <a
               href="#kontakt"
-              className={`inline-flex items-center gap-2 rounded-sm px-5 py-3 text-sm font-semibold transition-colors ${
-                solid
-                  ? "bg-steel-950 text-white hover:bg-accent-600"
-                  : "bg-accent-600 text-white hover:bg-accent-700"
-              }`}
+              className="inline-flex items-center gap-2 rounded-sm bg-steel-950 px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-steel-800"
             >
               Anfrage stellen
               <Icon name="arrow" className="h-4 w-4" />
@@ -72,11 +66,7 @@ export function Header() {
           <button
             type="button"
             onClick={() => setOpen((v) => !v)}
-            className={`flex h-11 w-11 items-center justify-center rounded-sm border transition-colors lg:hidden ${
-              solid
-                ? "border-steel-300 text-steel-900 hover:bg-steel-100"
-                : "border-white/30 text-white hover:bg-white/10"
-            }`}
+            className="flex h-11 w-11 items-center justify-center rounded-sm border border-steel-300 text-steel-900 transition-colors hover:bg-steel-100 lg:hidden"
             aria-label={open ? "Menü schließen" : "Menü öffnen"}
             aria-expanded={open}
           >
@@ -104,7 +94,7 @@ export function Header() {
             <a
               href="#kontakt"
               onClick={() => setOpen(false)}
-              className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-sm bg-accent-600 px-5 py-4 text-base font-semibold text-white"
+              className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-sm bg-steel-950 px-5 py-4 text-base font-semibold text-white"
             >
               Anfrage stellen
               <Icon name="arrow" className="h-4 w-4" />

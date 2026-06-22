@@ -4,15 +4,18 @@ import { Icon } from "@/components/ui/Icon";
 type Variant = "primary" | "outline" | "ghost";
 
 const base =
-  "inline-flex items-center justify-center gap-2 rounded-sm px-6 py-3.5 text-sm font-semibold tracking-wide transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-500 focus-visible:ring-offset-2";
+  "inline-flex items-center justify-center gap-2 rounded-sm px-6 py-3.5 text-sm font-semibold tracking-wide transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-steel-400 focus-visible:ring-offset-2";
 
 const variants: Record<Variant, string> = {
+  // Primär: kräftiges Schwarz – professionell, prominent, ohne Buntfläche
   primary:
-    "bg-accent-600 text-white shadow-sm hover:bg-accent-700 hover:shadow-md focus-visible:ring-offset-white",
+    "bg-steel-950 text-white shadow-sm hover:bg-steel-800 hover:shadow-md focus-visible:ring-offset-white",
+  // Outline: weiß mit Rahmen, roter Text – füllt sich beim Hover dunkel
   outline:
-    "border border-steel-300 text-steel-900 hover:border-steel-900 hover:bg-steel-900 hover:text-white focus-visible:ring-offset-white",
+    "border border-steel-300 bg-white text-accent-700 hover:border-steel-950 hover:bg-steel-950 hover:text-white focus-visible:ring-offset-white",
+  // Ghost: für dunkle Flächen
   ghost:
-    "border border-white/25 text-white hover:bg-white hover:text-steel-950 focus-visible:ring-offset-steel-950",
+    "border border-steel-400/40 text-steel-800 hover:border-steel-950 hover:bg-steel-950 hover:text-white focus-visible:ring-offset-white",
 };
 
 type ButtonLinkProps = ComponentProps<"a"> & {

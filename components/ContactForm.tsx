@@ -24,7 +24,7 @@ export function ContactForm() {
   if (state.status === "success") {
     return (
       <div className="flex h-full flex-col items-center justify-center rounded-md border border-steel-200 bg-steel-50 p-10 text-center">
-        <span className="flex h-14 w-14 items-center justify-center rounded-full bg-accent-600 text-white">
+        <span className="flex h-14 w-14 items-center justify-center rounded-full bg-steel-950 text-white">
           <Icon name="check" className="h-7 w-7" />
         </span>
         <h3 className="mt-6 font-display text-2xl font-semibold text-steel-950">
@@ -127,7 +127,7 @@ export function ContactForm() {
       <button
         type="submit"
         disabled={pending}
-        className="mt-1 inline-flex items-center justify-center gap-2 rounded-sm bg-accent-600 px-6 py-4 text-sm font-semibold text-white transition-colors hover:bg-accent-700 disabled:cursor-not-allowed disabled:opacity-70"
+        className="mt-1 inline-flex items-center justify-center gap-2 rounded-sm bg-steel-950 px-6 py-4 text-sm font-semibold text-white transition-colors hover:bg-steel-800 disabled:cursor-not-allowed disabled:opacity-70"
       >
         {pending ? "Wird gesendet …" : "Projekt anfragen"}
         {!pending && <Icon name="arrow" className="h-4 w-4" />}

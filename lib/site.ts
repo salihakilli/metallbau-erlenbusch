@@ -10,14 +10,13 @@ export const site = {
   description:
     "Metallbau-Meisterbetrieb für Geländer, Überdachungen, Sonderanfertigungen und Schweißtechnik. Präzise Verarbeitung in Stahl, Edelstahl und Aluminium – für Privat- und Gewerbekunden.",
   url: "https://www.metallbau-erlenbusch.de",
-  // Platzhalter – vor Veröffentlichung anpassen
-  phone: "+49 (0) 000 000 000",
-  phoneHref: "tel:+49000000000",
+  phone: "0151 18739627",
+  phoneHref: "tel:+4915118739627",
   email: "info@metallbau-erlenbusch.de",
   address: {
-    street: "Musterstraße 1",
-    zip: "00000",
-    city: "Musterstadt",
+    street: "Perrotsweg 41",
+    zip: "63263",
+    city: "Neu-Isenburg",
     country: "Deutschland",
   },
   hours: "Mo – Fr: 07:00 – 17:00 Uhr",
