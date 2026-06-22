@@ -55,7 +55,7 @@ export const services: Service[] = [
   {
     title: "Reparatur & Instandsetzung",
     summary:
-      "Bestehende Anlagen prüfen, instand setzen und wieder voll belastbar machen.",
+      "Ob Schweißreparatur, Instandsetzung oder Erneuerung – wir setzen bestehende Metall- und Stahlkonstruktionen fachgerecht instand und verlängern ihre Lebensdauer.",
     items: [
       "Reparatur von Stahl- & Metallkonstruktionen",
       "Wartung bestehender Anlagen",

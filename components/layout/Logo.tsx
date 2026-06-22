@@ -7,7 +7,7 @@ export function Logo({ tone = "dark" }: { tone?: "dark" | "light" }) {
 
   return (
     <a
-      href="#top"
+      href="/"
       className="group flex items-center gap-3"
       aria-label={`${site.name} – Startseite`}
     >

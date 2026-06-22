@@ -13,9 +13,9 @@ const variants: Record<Variant, string> = {
   // Outline: weiß mit Rahmen, roter Text – füllt sich beim Hover dunkel
   outline:
     "border border-steel-300 bg-white text-accent-700 hover:border-steel-950 hover:bg-steel-950 hover:text-white focus-visible:ring-offset-white",
-  // Ghost: für dunkle Flächen
+  // Ghost: Outline mit rotem Text (Hero, heller Hintergrund)
   ghost:
-    "border border-steel-400/40 text-steel-800 hover:border-steel-950 hover:bg-steel-950 hover:text-white focus-visible:ring-offset-white",
+    "border border-steel-400/50 text-accent-600 hover:border-steel-950 hover:bg-steel-950 hover:text-white focus-visible:ring-offset-white",
 };
 
 type ButtonLinkProps = ComponentProps<"a"> & {

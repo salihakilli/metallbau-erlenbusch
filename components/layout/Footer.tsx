@@ -10,7 +10,7 @@ export function Footer() {
       <Container className="py-16">
         <div className="grid gap-12 md:grid-cols-3">
           <div className="max-w-sm">
-            <a href="#top" aria-label={`${site.name} – Startseite`} className="inline-block">
+            <a href="/" aria-label={`${site.name} – Startseite`} className="inline-block">
               {/* Offizielles Logo, für die dunkle Fläche weiß eingefärbt */}
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
@@ -74,11 +74,10 @@ export function Footer() {
             © {year} {site.legalName}. Alle Rechte vorbehalten.
           </p>
           <nav className="flex gap-6" aria-label="Rechtliches">
-            {/* Platzhalter – rechtliche Seiten vor Livegang ergänzen */}
-            <a href="#impressum" className="transition-colors hover:text-accent-500">
+            <a href="/impressum" className="transition-colors hover:text-accent-500">
               Impressum
             </a>
-            <a href="#datenschutz" className="transition-colors hover:text-accent-500">
+            <a href="/datenschutz" className="transition-colors hover:text-accent-500">
               Datenschutz
             </a>
           </nav>

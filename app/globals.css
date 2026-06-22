@@ -19,7 +19,7 @@
   --color-accent-900: #701620;
 
   /* Stahl / Anthrazit (neutrale Basis mit leicht kühlem Ton) */
-  --color-steel-50: #f6f7f8;
+  --color-steel-50: #b3b3b3;
   --color-steel-100: #eceef0;
   --color-steel-200: #d6dade;
   --color-steel-300: #b2bac1;
@@ -101,4 +101,52 @@ html {
     transform: none;
     transition: none;
   }
+}
+
+/* ── Typografie für Rechtstexte (Impressum / Datenschutz) ───── */
+.legal {
+  color: var(--color-steel-700);
+  font-size: 0.975rem;
+  line-height: 1.7;
+}
+.legal h2 {
+  font-family: var(--font-display), system-ui, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--color-steel-950);
+  margin-top: 2.75rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--color-steel-200);
+}
+.legal h3 {
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: var(--color-steel-900);
+  margin-top: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+.legal p {
+  margin-bottom: 1rem;
+}
+.legal a {
+  color: var(--color-accent-700);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  overflow-wrap: anywhere;
+}
+.legal ul {
+  list-style: disc;
+  padding-left: 1.25rem;
+  margin-bottom: 1rem;
+}
+.legal li {
+  margin-bottom: 0.35rem;
+}
+.legal strong {
+  color: var(--color-steel-950);
+  font-weight: 600;
+}
+.legal address {
+  font-style: normal;
 }

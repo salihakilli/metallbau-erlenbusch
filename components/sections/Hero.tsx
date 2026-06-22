@@ -7,7 +7,7 @@ export function Hero() {
   return (
     <section
       id="top"
-      className="relative overflow-hidden bg-gradient-to-b from-white via-steel-50 to-steel-100 text-steel-950"
+      className="relative overflow-hidden bg-gradient-to-b from-white to-steel-50 text-steel-950"
     >
       {/* dezenter, heller Lichtschein – sehr zurückhaltend */}
       <div

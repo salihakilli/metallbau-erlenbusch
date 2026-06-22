@@ -23,9 +23,9 @@ export const site = {
 } as const;
 
 export const nav = [
-  { label: "Betrieb", href: "#betrieb" },
-  { label: "Leistungen", href: "#leistungen" },
-  { label: "Qualität", href: "#qualitaet" },
-  { label: "Referenzen", href: "#referenzen" },
-  { label: "Kontakt", href: "#kontakt" },
+  { label: "Betrieb", href: "/#betrieb" },
+  { label: "Leistungen", href: "/#leistungen" },
+  { label: "Qualität", href: "/#qualitaet" },
+  { label: "Referenzen", href: "/#referenzen" },
+  { label: "Kontakt", href: "/#kontakt" },
 ] as const;
