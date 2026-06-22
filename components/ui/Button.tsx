@@ -7,9 +7,9 @@ const base =
   "inline-flex items-center justify-center gap-2 rounded-sm px-6 py-3.5 text-sm font-semibold tracking-wide transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-steel-400 focus-visible:ring-offset-2";
 
 const variants: Record<Variant, string> = {
-  // Primär: kräftiges Schwarz – professionell, prominent, ohne Buntfläche
+  // Primär: kräftiges Schwarz mit rotem Text (Marken-Akzent)
   primary:
-    "bg-steel-950 text-white shadow-sm hover:bg-steel-800 hover:shadow-md focus-visible:ring-offset-white",
+    "bg-steel-950 text-accent-500 shadow-sm hover:text-accent-400 hover:shadow-md focus-visible:ring-offset-white",
   // Outline: weiß mit Rahmen, roter Text – füllt sich beim Hover dunkel
   outline:
     "border border-steel-300 bg-white text-accent-700 hover:border-steel-950 hover:bg-steel-950 hover:text-white focus-visible:ring-offset-white",

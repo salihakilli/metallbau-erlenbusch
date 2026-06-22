@@ -63,7 +63,7 @@ export function Contact() {
               </p>
               <a
                 href={site.phoneHref}
-                className="mt-4 inline-flex items-center gap-2 rounded-sm bg-steel-950 px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-steel-800"
+                className="mt-4 inline-flex items-center gap-2 rounded-sm bg-steel-950 px-5 py-3 text-sm font-semibold text-accent-500 transition-colors hover:text-accent-400"
               >
                 <Icon name="phone" className="h-4 w-4" />
                 {site.phone}
