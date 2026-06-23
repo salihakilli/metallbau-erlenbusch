@@ -53,10 +53,10 @@ export function Gallery() {
                 </div>
 
                 <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-steel-950/90 to-transparent p-4 sm:p-5">
-                  <span className="block text-[11px] font-semibold uppercase tracking-[0.12em] text-accent-400 break-words">
+                  <span className="block text-[10px] font-semibold uppercase tracking-[0.06em] text-accent-400 hyphens-auto">
                     {project.category}
                   </span>
-                  <p className="mt-1 font-display text-sm font-semibold leading-tight text-white break-words sm:text-base">
+                  <p className="mt-1 font-display text-sm font-semibold leading-tight text-white hyphens-auto sm:text-base">
                     {project.title}
                   </p>
                 </figcaption>
