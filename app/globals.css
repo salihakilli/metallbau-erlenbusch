@@ -51,7 +51,7 @@ body {
 html {
   scroll-behavior: smooth;
   /* Offset für die fixe Navigation beim Ankerscrollen */
-  scroll-padding-top: 5rem;
+  scroll-padding-top: 7rem;
 }
 
 @media (prefers-reduced-motion: reduce) {

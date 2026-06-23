@@ -11,7 +11,7 @@ export function Footer() {
       <Container className="py-16">
         <div className="grid gap-12 md:grid-cols-3">
           <div className="max-w-sm">
-            <BrandLogo tone="light" className="h-16 w-auto" />
+            <BrandLogo tone="light" className="h-16 w-auto lg:h-20" />
             <p className="mt-6 text-sm leading-relaxed text-steel-400">
               {site.legalName}. Metallbau-Meisterbetrieb für Geländer,
               Überdachungen, Sonderanfertigungen und Schweißtechnik.

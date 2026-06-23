@@ -38,8 +38,8 @@ export function Header() {
       }`}
     >
       <Container>
-        <div className="flex h-20 items-center justify-between">
-          <BrandLogo tone="dark" className="h-11 w-auto" />
+        <div className="flex h-20 items-center justify-between lg:h-24">
+          <BrandLogo tone="dark" className="h-11 w-auto lg:h-16" />
 
           <nav className="hidden items-center gap-8 lg:flex" aria-label="Hauptnavigation">
             {nav.map((item) => (
