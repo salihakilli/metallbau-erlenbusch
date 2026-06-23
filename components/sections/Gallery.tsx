@@ -52,15 +52,13 @@ export function Gallery() {
                   />
                 </div>
 
-                <figcaption className="absolute inset-x-0 bottom-0 flex items-end justify-between gap-3 bg-gradient-to-t from-steel-950/90 to-transparent p-5">
-                  <div>
-                    <span className="text-xs font-semibold uppercase tracking-[0.16em] text-accent-400">
-                      {project.category}
-                    </span>
-                    <p className="mt-1 font-display text-base font-semibold text-white">
-                      {project.title}
-                    </p>
-                  </div>
+                <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-steel-950/90 to-transparent p-4 sm:p-5">
+                  <span className="block text-[11px] font-semibold uppercase tracking-[0.12em] text-accent-400 break-words">
+                    {project.category}
+                  </span>
+                  <p className="mt-1 font-display text-sm font-semibold leading-tight text-white break-words sm:text-base">
+                    {project.title}
+                  </p>
                 </figcaption>
               </figure>
             </Reveal>
