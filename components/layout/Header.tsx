@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { Container } from "@/components/ui/Container";
 import { Icon } from "@/components/ui/Icon";
-import { Logo } from "@/components/layout/Logo";
+import { BrandLogo } from "@/components/layout/BrandLogo";
 import { nav, site } from "@/lib/site";
 
 export function Header() {
@@ -39,7 +39,7 @@ export function Header() {
     >
       <Container>
         <div className="flex h-20 items-center justify-between">
-          <Logo tone="dark" />
+          <BrandLogo tone="dark" className="h-11 w-auto" />
 
           <nav className="hidden items-center gap-8 lg:flex" aria-label="Hauptnavigation">
             {nav.map((item) => (

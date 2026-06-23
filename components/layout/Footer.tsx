@@ -1,5 +1,6 @@
 import { Container } from "@/components/ui/Container";
 import { Icon } from "@/components/ui/Icon";
+import { BrandLogo } from "@/components/layout/BrandLogo";
 import { nav, site } from "@/lib/site";
 
 export function Footer() {
@@ -10,15 +11,7 @@ export function Footer() {
       <Container className="py-16">
         <div className="grid gap-12 md:grid-cols-3">
           <div className="max-w-sm">
-            <a href="/" aria-label={`${site.name} – Startseite`} className="inline-block">
-              {/* Offizielles Logo, für die dunkle Fläche weiß eingefärbt */}
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/logo.svg"
-                alt={site.legalName}
-                className="h-16 w-auto [filter:brightness(0)_invert(1)]"
-              />
-            </a>
+            <BrandLogo tone="light" className="h-16 w-auto" />
             <p className="mt-6 text-sm leading-relaxed text-steel-400">
               {site.legalName}. Metallbau-Meisterbetrieb für Geländer,
               Überdachungen, Sonderanfertigungen und Schweißtechnik.
